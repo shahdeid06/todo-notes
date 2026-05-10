@@ -5,7 +5,6 @@ function Timer() {
   const [seconds, setSeconds] = useState(25 * 60);
   const [minutes, setMinutes] = useState(25);
   const [isRunning, setIsRunning] = useState(false);
-  const [tasks, setTasks] = useState([]);
 
 
 

@@ -6,7 +6,6 @@ import Todo from './components/Todo/Todo';
 import Weather from './components/Weather/Weather';
 import Dashboard from "./pages/Dashboard";
 import { Routes, Route } from "react-router-dom";
-import { useState } from "react";
 import Notes from './components/Notes/Notes';
 
 function App() {
