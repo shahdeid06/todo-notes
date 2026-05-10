@@ -2,16 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { AppContext } from "../Context";
-import App from "../App";
-// import "./header.css";
 
 
 function Header() {
 
-  // const tasks = 12;
-  // const timer = "25:00";
-  // const weather = "24°C";
-
+ 
   const {tasks , notes} = useContext(AppContext);
 
   return (
