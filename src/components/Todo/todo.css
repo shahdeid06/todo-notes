@@ -1,0 +1,163 @@
+.todo {
+  width: 100%;
+  max-width: 800px;
+  margin: 50px auto;
+
+  background: rgba(255,255,255,0.1);
+  padding: 30px;
+
+  border-radius: 25px;
+  backdrop-filter: blur(10px);
+
+  box-sizing: border-box;
+  z-index: -1;
+}
+
+.todo h2{
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
+
+.input-box{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-box input{
+  flex: 1;
+  padding: 12px;
+
+  border: none;
+  border-radius: 10px;
+
+  outline: none;
+}
+
+.input-box button{
+  padding: 12px 20px;
+
+  border: none;
+  border-radius: 10px;
+
+  background: #38bdf8;
+  color: white;
+
+  cursor: pointer;
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+
+  border-radius: 10px;
+
+  background: rgba(255,255,255,0.1);
+
+  cursor: pointer;
+}
+
+.item.done span{
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.item button{
+  background: rgb(247, 18, 18);
+  border: none;
+
+  padding: 6px 10px;
+
+  color: white;
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+.item .buttons{
+    display: flex;
+    gap: 10px;
+}
+.item button:hover{
+  background: rgba(248, 30, 30, 0.774);
+}
+.item .edit{
+  background: #1c3a5a;
+}
+.item .edit:hover{
+  background: rgba(32, 66, 103, 0.774);
+}
+
+.filter button {
+  margin: 5px;
+  padding: 5px 8px;
+    border: none;
+    border-radius: 5px;
+    background: #38bdf8;
+    color: white;
+}
+
+.filter button.active {
+  background: #162b42;
+  color: white;
+  padding: 8px 12px;
+  transform: scale(1.01);
+  transition: 0.5s all ease-in-out;
+}
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.active-count{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #38f8ab;
+}
+.set-time{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.set-time input{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+.set-time button{
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background: #38bdf8;
+    color: white;
+    cursor: pointer;
+}
+.set-time input:focus{
+    color: rgb(51, 136, 255);
+}
+.active {
+  border: 2px solid #00c853;
+  background: #e8f5e9;
+  transform: scale(1.02);
+}
+
+.search {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+  
